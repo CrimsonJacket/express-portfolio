@@ -1,0 +1,912 @@
+<!--
+author: Boostraptheme
+author URL: https://boostraptheme.com
+License: Creative Commons Attribution 4.0 Unported
+License URL: https://creativecommons.org/licenses/by/4.0/
+-->
+
+<!-- 
+WELCOME MY FRIEND!
+Thanks to whoever interested in reading this source code!
+Special credit to https://themewagon.com/themes/bootstrap-4-portfolio-website-template/#comment-36358
+which is the primary source of template
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title> Daniel Tan - Online Portfolio </title>
+
+  <!-- Global stylesheets -->
+  <link href="/css/bootstrap/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i"
+    rel="stylesheet">
+  <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="/css/button/button.min.css" rel="stylesheet">
+  <link href="/css/devicons/css/devicons.min.css" rel="stylesheet">
+  <link href="/css/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+  <link href="/css/style.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137969125-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-137969125-1');
+  </script>
+
+</head>
+
+<body id="page-top">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+      <span class="d-block d-lg-none  mx-0 px-0"><img src="img/logo-white.png" alt="" class="img-fluid"></span>
+      <span class="d-none d-lg-block">
+        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/avatar.jpg" alt="">
+      </span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#awards">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+        </li>
+        <!-- <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
+        </li> -->
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container-fluid p-0">
+    <!--====================================================
+                        ABOUT
+    ======================================================-->
+    <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+      <div class="my-auto">
+        <h1 class="mb-0"> Daniel
+          <span class="text-primary">Tan</span>
+          Jia Wang
+        </h1>
+        <div class="subheading mb-5"> 
+          Computer Science Undergraduate
+          <br/>
+          <button type="submit" class="ui primary button" display="block" onclick="window.open('/resume/resume.pdf')">	
+            <i class="fa fa-file-pdf-o"></i>	
+            Resume	
+          </button>
+        </div>
+
+        <p class="mb-5" style="max-width: 500px;">
+          Driven by my passion for technology and its impact on the community, I strive to incorporate innovative and
+          secure solutions to solve real world problems.
+        </p>
+        <ul class="list-inline list-social-icons mb-0">
+
+          <li class="list-inline-item">
+            <a href="https://www.linkedin.com/in/danieltanjw/" target="_blank">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+
+          <li class="list-inline-item">
+            <a href="https://github.com/CrimsonJacket" target="_blank">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+
+    <!--====================================================
+                           EDUCATION
+    ======================================================-->
+    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
+      <div class="row my-auto">
+        <div class="col-12">
+          <h2 class="text-center">Education</h2>
+          <div class="mb-5 heading-border"></div>
+          <div class="main-award text-center" id="award-box">
+            <div class="award">
+              <div class="award-icon"></div>
+              <div class="award-content">
+                <span class="date">Aug 2017 - Present</span>
+                <h5 class="title">National University of Singapore(NUS)</h5>
+                <p class="description">
+                  Bachelor of Computing (Honours) in Computer Science - Specialization in Software Engineering and
+                  Computer Security.
+                </p>
+                <p class="description">
+                  (Course details in resume)
+                </p>
+              </div>
+            </div>
+            <div class="award">
+              <div class="award-icon"></div>
+              <div class="award-content">
+                <span class="date">April 2012 - May 2014</span>
+                <h5 class="title">Singapore Polytechnic</h5>
+                <p class="description">
+                  Diploma in Infocomm Security Management. CAP: 3.916/4.0
+
+                </p>
+                <p class="description">
+                  Diploma+ Programme: Certificate in Business
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--====================================================
+                        EXPERIENCE
+    ======================================================-->
+    <section class="resume-section p-3 p-lg-5 " id="experience">
+      <div class="row my-auto">
+
+        <div class="col-12">
+          <h2 class="  text-center">Experience</h2>
+          <div class="mb-5 heading-border"></div>
+        </div>
+
+        <div class="resume-item col-sm-12 ">
+          <div class="card mx-0 p-4 mb-5">
+            <div class=" resume-content mr-auto">
+              <h4 class="mb-3"><i class="fa fa-connectdevelop mr-3 text-info"></i>Software Engineer Intern</h4>
+              <strong><a href="https://hummingbot.io/">CoinAlpha</a></strong>
+              <p>
+                - Integrated exchange API into Hummingbot trading bot. Subsequently, wrote a detailed developer documentation guide for 
+                community developers to integrate other exchanges into the trading bot. <br>
+                - Using Grafana, implement an internal dashboard to aid engineering team in monitoring various metrics in the numerous markets in the Liquidity Mining Platform.<br>
+              </p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">Aug 2019 - Present</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="resume-item col-sm-12 ">
+          <div class="card mx-0 p-4 mb-5">
+            <div class=" resume-content mr-auto">
+              <h4 class="mb-3"><i class="fa fa-connectdevelop mr-3 text-info"></i>Software Engineer Intern - Front End</h4>
+              <strong><a href="https://mobbin.design/">Mobbin Design</a></strong>
+              <p>
+                - Implemented various interactive UI components using React-Typescript. Styling is done using styled-components, flexbox and react-pose.<br>
+                - Additionally, through the usage of Styleguidist, documented the respective React components for future developments and/or alterations. <br>
+              </p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">May 2019 - July 2019</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="resume-item col-sm-12 ">
+          <div class="card mx-0 p-4 mb-5">
+            <div class=" resume-content mr-auto">
+              <h4 class="mb-3"><i class="fa fa-connectdevelop mr-3 text-info"></i>Orbital Team Advisor</h4>
+              <strong>NUS Orbital Programme</strong>
+              <p>
+                - Advise and guide 5 teams in the development of 5 Project-Gemini level products over the summer of 2019.<br>
+                - Conducted several one-to-one workshops so as to get the various teams started on developing software as a team.<br>
+                - Emphasize proper version control methodologies and principles to improve code management and mimic development cycles as per real world positions.
+              </p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">May 2019 - 2019</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="resume-item col-sm-12 ">
+          <div class="card mx-0 p-4 mb-5">
+            <div class=" resume-content mr-auto">
+              <h4 class="mb-3"><i class="fa fa-connectdevelop mr-3 text-info"></i> Software Engineer</h4>
+              <strong> A* Institute of Infocomm Research(i2R)</strong>
+              <p>
+                - Integrated proprietary ciphers into open-sourced libraries, OpenSSL, and subsequently performed a
+                performance comparison test on the proprietary ciphers with already available ciphers.<br>
+                - Devised and conducted intercontinental data transmission performance testing on custom ciphers through
+                the usage of Cloud Computing Platforms like Google Cloud Platform and Amazon Web Services
+                and open-source VPN Server and Client nodes to simulate secured communications.
+              </p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">Feb 2015 - July 2015</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="resume-item col-sm-12 ">
+          <div class="card mx-0 p-4 mb-5">
+            <div class=" resume-content mr-auto">
+              <h4 class="mb-3"><i class="fa fa-connectdevelop mr-3 text-info"></i> Software Engineer Intern</h4>
+              <strong> A* Institute of Infocomm Research(i2R)</strong>
+              <p>
+                - Initiated the development of an Android Malware Analysis Tool using an interactive multi-processor
+                disassembler and an open-source reverse
+                engineering tool.<br>
+                - Collaborated with fellow lab interns in the production of the analysis tool with structured version
+                control methodology and Software Engineering Design Patterns.<br>
+                - Analyzed and compared effectiveness of the propietary tool and existing mobile security application in
+                the detection of malicious behaviour in
+                available mobile applications in the primary and secondary marketplaces and observed a 12% increase in
+                detection rate.
+              </p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">Sep 2014 - Feb 2015</span>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+
+    <!--====================================================
+                        PORTFOLIO
+    ======================================================-->
+    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="portfolio">
+      <div class="row my-auto">
+        <div class="col-12">
+          <h2 class="text-center">Portfolio</h2>
+          <p class="text-center">Check out some of my projects.</p>
+          <div class="mb-5 heading-border"></div>
+        </div>
+      </div>
+      <div class="row my-auto">
+
+      <div class="col-4">
+        <div class="portfolio-item">
+          <a class="portfolio-link" href="#portfolioModal1" data-toggle="modal">
+            <div class="caption-port">
+              <div class="caption-port-content">
+                <i class="fa fa-search-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/UnderstandNotBanner.png" alt="">
+          </a>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="portfolio-item">
+          <a class="portfolio-link" href="#portfolioModal2" data-toggle="modal">
+            <div class="caption-port">
+              <div class="caption-port-content">
+                <i class="fa fa-search-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/modsUniBanner.png" alt="">
+          </a>
+        </div>
+      </div>
+
+      </div>
+    </section>
+
+    <!--====================================================
+                        PROGRAMMING LANGUAGES
+    ======================================================-->
+    <section class="resume-section d-flex flex-column" id="skills">
+      <div class="p-lg-5 p-3 skill-cover">
+        <div class="col-12">
+          <h2 class="text-center">Programming Languages</h2>
+          <p class="text-center">These are rough indicators of my proficiency in the various programming languages.</p>
+          <div class="mb-5 heading-border"></div>
+        </div>
+        <h3></h3>
+
+        <div class="row text-center my-auto ">
+
+          <div class="col-md-3 col-sm-6">
+            <div class="skill-item">
+              <h2><span> Python </span></h2>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width:90%">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+              <div class="skill-item">
+                <h2><span> Java </span></h2>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width:90%">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+                <div class="skill-item">
+                  <h2><span> C </span></h2>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width:70%">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3 col-sm-6">
+                  <div class="skill-item">
+                    <h2><span> Javascript </span></h2>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width:30%">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+        </div>
+      </div>
+    </section>
+
+    <!--====================================================
+                        WEB DEVELOPMENT
+    ======================================================-->
+    <section class="resume-section d-flex flex-column" id="skills">
+        <div class="p-lg-5 p-3 skill-cover">
+          <div class="col-12">
+            <h2 class="  text-center">Web Development</h2>
+            <p class="text-center">These are rough indicators of my proficiency in the various web development tools and frameworks.</p>
+            <div class="mb-5 heading-border"></div>
+          </div>
+          <h3></h3>
+  
+          <div class="row text-center my-auto ">
+  
+            <div class="col-md-3 col-sm-6">
+              <div class="skill-item">
+                <h2><span> HTML5 </span></h2>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width:70%">
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-md-3 col-sm-6">
+                <div class="skill-item">
+                  <h2><span> CSS </span></h2>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width:70%">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3 col-sm-6">
+                  <div class="skill-item">
+                    <h2><span> Bootstrap </span></h2>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width:70%">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              <div class="col-md-3 col-sm-6">
+                  <div class="skill-item">
+                    <h2><span> Django </span></h2>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width:70%">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="skill-item">
+                      <h2><span> Flask </span></h2>
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width:70%">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                
+                  <div class="col-md-3 col-sm-6">
+                      <div class="skill-item">
+                        <h2><span> Jinja2 </span></h2>
+                        <div class="progress">
+                          <div class="progress-bar" role="progressbar" style="width:70%">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                      <div class="skill-item">
+                        <h2><span> Redis </span></h2>
+                        <div class="progress">
+                          <div class="progress-bar" role="progressbar" style="width:20%">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                      <div class="skill-item">
+                        <h2><span> React </span></h2>
+                        <div class="progress">
+                          <div class="progress-bar" role="progressbar" style="width:30%">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                      <div class="skill-item">
+                        <h2><span> Typescript </span></h2>
+                        <div class="progress">
+                          <div class="progress-bar" role="progressbar" style="width:30%">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+  
+          </div>
+        </div>
+      </section>
+
+    <!--====================================================
+                          INTERESTS
+    ======================================================-->
+    <!-- <section class="resume-section p-3 p-lg-5" id="interests">
+      <div class="row my-auto">
+        <div class="col-12">
+          <h2 class="  text-center">Interests</h2>
+          <div class="mb-5 heading-border"></div>
+        </div>
+        <p>
+        </p>
+      </div>
+    </section> -->
+
+    <!--====================================================
+                          CONTACT
+    ======================================================-->
+    <section class="resume-section p-3 p-lg-5 d-flex flex-column">
+
+      <div class="row my-auto" id="contact">
+        <div class="col-md-8">
+
+          <div class="contact-cont">
+            <h3>Contact Me</h3>
+            <div class="heading-border-light"></div>
+            <p>Please feel free to contact me</p>
+          </div>
+
+
+          <form method="POST" action="https://formspree.io/xvovpnbg" class="row con-form" target="_blank">
+
+            <div class="col-md-12">
+              <input type="text" name="full-name" placeholder="Full Name" class="form-control" required>
+            </div>
+
+            <div class="col-md-12">
+              <input type="email" name="email" placeholder="Email" class="form-control" required>
+            </div>
+
+            <div class="col-md-12">
+              <input type="text" name="subject" placeholder="Subject" class="form-control" required>
+            </div>
+
+            <div class="col-md-12"><textarea name="" id="" required></textarea></div>
+
+            <div class="col-md-12 sub-but">
+              <button type="submit" class="btn btn-general btn-white" role="button">
+                Send
+              </button>
+            </div>
+
+          </form>
+
+        </div>
+
+        <div class="col-md-4 col-sm-12 mt-5">
+          <div class="contact-cont2">
+            <div class="contact-phone contact-side-desc contact-box-desc">
+              <h3><i class="fa fa-telegram cl-atlantis fa-2x"></i> Telegram</h3>
+              <a href="https://t.me/DanielTJW" target="_blank">@DanielTJW</a>
+            </div>
+            <div class="contact-phone contact-side-desc contact-box-desc">
+              <h3><i class="fa fa-skype cl-atlantis fa-2x"></i> Skype</h3>
+              <a target="_blank">live:danieltanjiawang</a>
+            </div>
+            <div class="contact-mail contact-side-desc contact-box-desc">
+              <h3><i class="fa fa-envelope-o cl-atlantis fa-2x"></i> Email</h3>
+              <address class="address-details-f">
+                Email: <a href="mailto:danieltanjiawang@gmail.com" class="">danieltanjiawang@gmail.com</a>
+              </address>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+
+  <!--====================================================
+                    PORTFOLIO MODALS
+======================================================-->
+
+<!-- 
+                UnderstandNot
+ -->
+  <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="modal-body">
+              <div class="title-bar">
+                <div class="col-md-12">
+                  <h2 class="text-center">UnderstandNot</h2>
+                  <div class="heading-border"></div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <img class="img-fluid img-centered" src="img/portfolio/UnderstandNotBanner.png" alt="">
+                </div>
+                <div class="col-md-6">
+                  <p>
+                    <a href="https://github.com/CrimsonJacket/UnderstandNot">UnderstandNot</a> is a web application 
+                    that provides a platform for students to obtain subtitles for videos and edit the respective subtitles
+                    accordingly. This project was initiated by <a href="http://www.linkedin.com/in/koh-zheng-wei">Koh Zheng Wei</a> and myself and was supervised under NUS Orbital 2018.
+                  </p>
+                  <p>
+                    <b> Contributions: </b> <br>
+                    - Implemented data structure to represent each video entry as its respective components.<br>
+                    - Implemented data structure to hold entry elements in the Model component.<br>
+                    - Implemented conversion of video files into compatible audio files using FFmpeg to be used by AWS Transribe.<br>
+                    - Implemented UI/UX interface using Bootstrap 4.<br>
+                  </p>
+                  <p>
+                    <b> Key Takeaways: </b><br>
+                    - Introduction to an independently driven software development life cycle with requirement specification, product design,
+                    implementation, testing and deployment.<br>
+                    - Introduction to the usage of AWS Transribe to create a preliminary captioning solution.<br>
+                    - Enhanced documentation and progress report through proper milestone deadlines.<br>
+                  </p>
+                  <p>
+                    <b>Technologies Used:</b> <br>
+                    #Python #Jinja2 #AWS #Redis #Sanic #Bootstrap #Git
+                  </p>
+                  <p>
+                    <b>Credits: </b><br>
+                    Thanks to <a href="http://www.linkedin.com/in/koh-zheng-wei">Zheng Wei</a> for being patient and understanding throughout the project.
+                    Also thanks to our project advisor for sharing valuable real-world experiences and scenarios to our team.
+
+                  </p>
+                  <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
+                    <i class="fa fa-times"></i> Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 
+                  modsUni
+   -->
+  <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="modal-body">
+              <div class="title-bar">
+                <div class="col-md-12">
+                  <h2 class="text-center">modsUni</h2>
+                  <div class="heading-border"></div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <a href="https://github.com/CrimsonJacket/modsUni"><img class="img-fluid img-centered"
+                      src="img/portfolio/modsUniBanner.png" alt=""> </a>
+                </div>
+                <div class="col-md-6">
+                  <p>
+                    <a href="https://github.com/CrimsonJacket/modsUni">modsUni</a> is a desktop candidature management application created by university students for students. 
+                    It aims to make the tedious process of planning your entire candidature easier and more effective. 
+                    It provides students with the ability to view module details and manage their personal candidature plans.
+                  </p>
+                  <p>
+                    <b> Contributions: </b> <br>
+                    - Implemented a User Account Management feature. This allows users to manage user-specific settings and configurations.<br>
+                    - Incorporating a traditional account management interface, users can expect a familiar and intuitive structure when managing their personal details.<br>
+                    - As the team lead in this project, I was tasked with any Project Management issues like making critical decisions with regards to project development and overseeing task allocation and deadlines.<br>
+                    - In addition, I manage the project's Git repository and the relevant CI/CD environment.
+                  </p>
+                  <p>
+                    <b> Key Takeaways: </b><br>
+                    - Being my first time leading a team in a software engineering project. I draw on my knowledge of proper software engineering principles and prior internship experience to steer the team to achieve necessary milestones and meet deadlines with efficiency and effectiveness.<br>
+                    - Learnt how to integrate CI/CD concepts into projects.<br>
+                    - Significantly enhanced my time management skills and adaptability to ever changing scenarios and issues during the development cycle.<br>
+                  </p>
+                  <p>
+                    <b>Technologies Used:</b> <br>
+                    #Java #JavaFX #Git
+                  </p>
+                  <p>
+                    <b>Credit: </b><br>
+                    Thanks to my <a href="https://cs2103-ay1819s1-w17-2.github.io/main/AboutUs.html">Teammates</a> for being wonderful partners who are willing to teach and learn from one another.<br>
+                    Also thanks to our teaching assistant, <a href="https://github.com/amrut-prabhu">Amrut</a>, for providing us with prompt and critical feedback throughout the duration of the project.<br>
+                  </p>
+
+                  <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
+                    <i class="fa fa-times"></i> Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 
+                      tfidf-java
+    -->
+  <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="modal-body">
+              <div class="title-bar">
+                <div class="col-md-12">
+                  <h2 class="text-center">tfidf-java</h2>
+                  <div class="heading-border"></div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <img class="img-fluid img-centered" src="" alt="">
+                </div>
+                <div class="col-md-6">
+                  <p>
+                    <a href="">tfidf-java</a>
+                  </p>
+                  <p>
+                    <b> Contribution: </b> <br>
+                    - <br>
+                  </p>
+                  <p>
+                    <b> Key Takeaways: </b><br>
+                    - <br>
+                  </p>
+                  <p>
+                    <b>Technologies Used:</b> <br>
+                    #java
+                  </p>
+
+                  <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
+                    <i class="fa fa-times"></i> Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Global javascript -->
+  <script src="js/jquery/jquery.min.js"></script>
+  <script src="js/bootstrap/bootstrap.bundle.min.js"></script>
+  <script src="js/jquery-easing/jquery.easing.min.js"></script>
+  <script src="js/counter/jquery.waypoints.min.js"></script>
+  <script src="js/counter/jquery.counterup.min.js"></script>
+  <script src="js/custom.js"></script>
+  <script>
+    $(document).ready(function () {
+
+      $(".filter-b").click(function () {
+        var value = $(this).attr('data-filter');
+        if (value == "all") {
+          $('.filter').show('1000');
+        } else {
+          $(".filter").not('.' + value).hide('3000');
+          $('.filter').filter('.' + value).show('3000');
+        }
+      });
+
+      if ($(".filter-b").removeClass("active")) {
+        $(this).removeClass("active");
+      }
+      $(this).addClass("active");
+    });
+
+    // SKILLS
+    $(function () {
+      $('.counter').counterUp({
+        delay: 10,
+        time: 2000
+      });
+
+    });
+
+
+
+
+    var options = {
+      "particles": {
+        "number": {
+          "value": 99,
+          "density": {
+            "enable": true,
+            "value_area": 552.4033491425909
+          }
+        },
+        "color": {
+          "value": "#163959"
+        },
+        "shape": {
+          "type": "circle",
+          "stroke": {
+            "width": 0,
+            "color": "#183F62"
+          },
+          "polygon": {
+            "nb_sides": 3
+          },
+          "image": {
+            "src": "img/github.svg",
+            "width": 70,
+            "height": 100
+          }
+        },
+        "opacity": {
+          "value": 1,
+          "random": true,
+          "anim": {
+            "enable": false,
+            "speed": 1,
+            "opacity_min": 0.1,
+            "sync": false
+          }
+        },
+        "size": {
+          "value": 2,
+          "random": true,
+          "anim": {
+            "enable": false,
+            "speed": 40,
+            "size_min": 0.1,
+            "sync": false
+          }
+        },
+        "line_linked": {
+          "enable": false,
+          "distance": 150,
+          "color": "#ffffff",
+          "opacity": 0.4,
+          "width": 1
+        },
+        "move": {
+          "enable": true,
+          "speed": 1.5782952832645452,
+          "direction": "none",
+          "random": true,
+          "straight": false,
+          "out_mode": "out",
+          "bounce": false,
+          "attract": {
+            "enable": false,
+            "rotateX": 600,
+            "rotateY": 1200
+          }
+        }
+      },
+      "interactivity": {
+        "detect_on": "canvas",
+        "events": {
+          "onhover": {
+            "enable": false,
+            "mode": "repulse"
+          },
+          "onclick": {
+            "enable": true,
+            "mode": "repulse"
+          },
+          "resize": true
+        },
+        "modes": {
+          "grab": {
+            "distance": 400,
+            "line_linked": {
+              "opacity": 1
+            }
+          },
+          "bubble": {
+            "distance": 400,
+            "size": 40,
+            "duration": 2,
+            "opacity": 8,
+            "speed": 3
+          },
+          "repulse": {
+            "distance": 200,
+            "duration": 0.4
+          },
+          "push": {
+            "particles_nb": 4
+          },
+          "remove": {
+            "particles_nb": 2
+          }
+        }
+      },
+      "retina_detect": false
+    };
+    particlesJS("particle", options);
+  </script>
+</body>
+
+</html>
