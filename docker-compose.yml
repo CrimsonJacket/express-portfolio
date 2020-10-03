@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   portfolio:
-    image: express-portfolio:1.0
+    image: danieltjw95/express-portfolio:1.0
     build: 
       context: ./portfolio
     networks: 
@@ -11,7 +11,7 @@ services:
       - DEBUG='express:*'
   
   proxy:
-    image: nginx-reverse:1.0
+    image: danieltjw95/nginx-reverse:1.0
     build:
       context: ./nginx
     ports:
