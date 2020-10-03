@@ -1,5 +1,5 @@
 # Online Portfolio
-This is my online portfolio(static website) served over Express. Served using Docker with the addition of Nginx reverse proxy
+This is a repository containing my online portfolio(static website) served within a 
 
 ## Starting Express and Nginx Reverse Proxy services
 `docker-compose -up`
